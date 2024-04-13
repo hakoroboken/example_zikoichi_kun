@@ -1,33 +1,6 @@
-# じこいち君 プログラムテンプレート
+# 自己位置くんで遊ぼう
 
-## 利用する前に
-使われているマイコンのXIAOに書き込むために以下のリンクよりセットアップしてください。
-
-[xiao-rp2040](https://wiki.seeedstudio.com/XIAO-RP2040-with-Arduino/)
-
-## 使用上の注意
-
-.inoファイル名とリポジトリ名は揃えること。
-
-
-## Example
-
-以下は全てmain.inoに記載する。
-
-前方移動
-```C++
-#include "zikoichi_kun_api.hpp"
-
-void setup() {
-  zk_api::setup();
-}
-
-void loop() {
-  zk_api::xyz_control(1.0, 0.0, 0.0, 50);
-}
-
-```
-
+ページurl https://hakoroboken.github.io/hakorobowiki/software/zikoichi_kun/
 
 ## zk_api
 
